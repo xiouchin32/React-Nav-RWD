@@ -17,11 +17,6 @@
         font-size: 2rem;
     }
 
-    .fa-firstdraft {
-        margin-left: 0.5rem;
-        font-size: 1.6rem;
-    }
-
     .nav-menu {
         display: grid;
         grid-template-columns: repeat(5, auto);
@@ -51,10 +46,6 @@
         transition: all 0.2s ease-out;
     }
 
-    .fa-bars {
-        color: #fff;
-    }
-
     .nav-links-mobile {
         display: none;
     }
@@ -64,10 +55,6 @@
     }
 
     @media screen and (max-width: 960px) {
-        .NavbarItems {
-            position: relative;
-        }
-
         .nav-menu {
             display: flex;
             flex-direction: column;
@@ -115,11 +102,7 @@
             transform: translate(-100%, 60%);
             font-size: 1.8rem;
             cursor: pointer;
-        }
-
-        .fa-times {
             color: #fff;
-            font-size: 2rem;
         }
 
         .nav-links-mobile {
